@@ -12,7 +12,7 @@ function Character(props){
     `;
  return(
      <Wrapper>
-        <Col sm = '11'>
+        <Col sm = '15'>
         {characters.map((item, i) => {
         return  <Card key = {i} body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} key = {item.id} >
                     <CardImg src={item.image} alt = {item.name} />
